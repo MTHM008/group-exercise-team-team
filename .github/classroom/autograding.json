@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "formatting",
+      "setup": "sudo -H pip3 install numpy flake8",
+      "run": "flake8",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "testing",
+      "setup": "sudo -H pip3 install numpy pytest",
+      "run": "python3 -m pytest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
